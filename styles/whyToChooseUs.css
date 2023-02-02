@@ -1,0 +1,371 @@
+.why-to-choose-us{
+    height: 500px;
+    width: 1440px;
+    position: absolute;
+    background-color: rgba(59, 82, 91, 1);
+    top: 1838px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.designers-Vector, .Freeinstallation-Vectorr, .Guaranteedquality-Vector, .Freedelivery-Vector{
+    position: absolute;
+    top: 109px;
+    height: 50px;
+    width: 50px;
+}
+.designers-Vector{
+    left: 40.27%;
+}
+.Guaranteedquality-Vector{
+    left: 56.38%;
+}
+.Freedelivery-Vector{
+    left: 72.56%;
+}
+.Freeinstallation-Vectorr{
+    left: 89.02%;
+}
+.why-to-choose-us-text{
+    width: 273px;
+    min-height: 223px;
+    position: absolute;
+    top: 92px;
+    left: 10.27%;
+    font-size: 72px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Professional-designers-text, .Guaranteed-quality-text, .Free-delivery-text, .Free-installation-text{
+    height: 27px;
+    top: 189px;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Professional-designers-text{
+    width: 210px;
+    left: 34.58%;
+}
+.Guaranteed-quality-text{
+    width: 179px;
+    left: 51.87%;
+}
+.Free-delivery-text{
+    width: 120px;
+    left: 68.88%;
+}
+.Free-installation-text{
+    width: 150px;
+    left: 84.37%;
+}
+
+.Professional-designers-text-2{
+    top: 231px;
+    left: 34.79%;
+    height: 111px;
+    width: 190px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: left;
+}
+.Guaranteed-quality-text-2{
+    width: 178px;
+    height: 111px;
+    top: 231px;
+    left: 52.22%;
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 27px;
+}
+.Free-delivery-text-2{
+    height: 105px;
+    width: 166px;
+    top: 231px;
+    left: 69.16%;
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 27px;
+}
+.Free-installation-text-2{
+    height: 104px;
+    width: 178px;
+    top: 231px;
+    left: 84.65%;
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width:1439px){
+    .why-to-choose-us{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1439px){
+    .why-to-choose-us{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1300px){
+    .why-to-choose-us-text{
+        font-size: 50px;
+        width: 190px;
+        top: 120px;
+    }
+    .Professional-designers-text,.Guaranteed-quality-text,.Free-delivery-text,.Free-installation-text{
+        font-size: 16px;
+    }
+    .Professional-designers-text-2,.Guaranteed-quality-text-2,.Free-delivery-text-2,.Free-installation-text-2{
+        font-size: 14px;
+    }
+    .designers-Vector,.Guaranteedquality-Vector,.Freedelivery-Vector,.Freeinstallation-Vectorr{
+        height: 30px;
+        width: 30px;
+        top: 129px;
+    }
+}
+@media screen and (max-width:1164px) {
+    .why-to-choose-us{
+        top: 1638px;
+    }
+}
+@media screen and (max-width:1183px) {
+    .why-to-choose-us-text{
+        left: 3%;
+    }
+   .Professional-designers-text,.Professional-designers-text-2,.designers-Vector{
+    left: 27%;
+    text-align: left;
+   }
+   .Guaranteed-quality-text,.Guaranteed-quality-text-2,.Guaranteedquality-Vector{
+    left: 47%;
+    text-align: left;
+   }
+   .Free-delivery-text,.Free-delivery-text-2,.Freedelivery-Vector{
+    left: 66%;
+    text-align: left;
+   }
+   .Free-installation-text,.Free-installation-text-2,.Freeinstallation-Vectorr{
+    left: 83%;
+    text-align: left;
+   }
+
+}
+@media screen and (max-width:1031px) {
+    .why-to-choose-us{
+        top:750px;
+        height: 300px;
+    }
+    .why-to-choose-us-text{
+        font-size: 18px;
+        height: 20px;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+    .designers-Vector,.Freedelivery-Vector,.Freeinstallation-Vectorr,.Guaranteedquality-Vector{
+        top: 100px;
+        height: 20px;
+        width: 20px;
+    }
+    .designers-Vector{
+        left: 5%;
+    }
+    .Professional-designers-text{
+        top: 103px;
+        left: 6%;
+        text-align: center;
+    }
+    .Professional-designers-text-2{
+        top: 120px;
+        left: 8.5%;
+        font-size: 12px;
+        width: 160px;
+        color: rgb(216, 213, 213);
+    }
+    .Guaranteedquality-Vector{
+        left: 32%;
+    }
+    .Guaranteed-quality-text{
+        top: 103px;
+        left: 33%;
+        text-align: center;
+    }
+    .Guaranteed-quality-text-2{
+        top: 120px;
+        left: 35.5%;
+        font-size: 12px;
+        width: 160px;
+        color: rgb(216, 213, 213);
+    }
+    .Freedelivery-Vector{
+        left: 60%;
+    }
+    .Freeinstallation-Vectorr{
+        left: 90%;
+    }
+    .Freedelivery-Vector{
+        left: 58%;
+    }
+    .Free-delivery-text{
+        top: 103px;
+        left: 60%;
+        text-align: center;
+    }
+    .Free-delivery-text-2{
+        top: 120px;
+        left: 61.5%;
+        font-size: 12px;
+        width: 160px;
+        color: rgb(216, 213, 213);
+    }
+    .Freeinstallation-Vectorr{
+        left: 80%;
+    }
+    .Free-installation-text{
+        top: 103px;
+        left: 81%;
+        text-align: center;
+    }
+    .Free-installation-text-2{
+        top: 120px;
+        left: 83.5%;
+        font-size: 12px;
+        width: 160px;
+        color: rgb(216, 213, 213);
+    }
+}
+@media screen and (max-width:881px) {
+    .why-to-choose-us{
+        top: 660px;
+        height: 200px;
+    }
+    .why-to-choose-us-text{
+        height: 18px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+    }
+    .designers-Vector{
+        top: 17%;
+        left: 2%;
+        height: 15px;
+        width: 15px;
+    }
+    .Professional-designers-text{
+        left:-1%;
+        top: 17%;
+        font-size: 12px;
+    }
+    .Professional-designers-text-2{
+        left: 5%;
+        top: 24%;
+        width: 25%;
+        line-height: 15px;
+        font-size: 8px;
+    }
+    .Guaranteedquality-Vector{
+        top: 62%;
+        left: 2%;
+        height: 15px;
+        width: 15px;
+    }
+    .Guaranteed-quality-text{
+        left:0;
+        top: 62%;
+        font-size: 12px;
+    }
+    .Guaranteed-quality-text-2{
+        left: 5%;
+        top: 69%;
+        width: 25%;
+        line-height: 15px;
+        font-size: 8px;
+    }
+    .Freedelivery-Vector{
+        height: 15px;
+        width: 15px;
+        top: 17%;
+        left: 70%;
+    }
+    .Free-delivery-text{
+        font-size: 12px;
+        left: 70%;
+        top: 17%;
+    }
+    .Free-delivery-text-2{
+        width: 25%;
+        line-height: 15px;
+        font-size: 8px;
+        top: 25%;
+        left: 73.5%;
+    }
+    .Freeinstallation-Vectorr{
+        top: 62%;
+        left: 70%;
+        height: 15px;
+        width: 15px;
+    }
+    .Free-installation-text{
+        left:70%;
+        top: 62%;
+        font-size: 12px; 
+    }
+    .Free-installation-text-2{
+        left: 74.5%;
+        top: 69%;
+        width: 25%;
+        line-height: 15px;
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:415px) {
+    .Free-delivery-text,.Free-installation-text,.Guaranteed-quality-text,.Professional-designers-text{
+        font-size: 10px;
+    }
+    .Free-installation-text-2,.Free-delivery-text-2,.Guaranteed-quality-text-2,.Professional-designers-text-2{
+        font-size: 8px;
+    }
+    .Professional-designers-text{
+        left: -7%;
+    }
+    .Guaranteed-quality-text{
+        left: -5%;
+    }
+    .Free-installation-text{
+        left: 65%;
+    }
+    .Free-delivery-text{
+        left: 67%;
+    }
+}
+@media screen and (max-width:335px) {
+    .Free-installation-text-2,.Free-delivery-text-2,.Guaranteed-quality-text-2,.Professional-designers-text-2{
+        font-size: 4px;
+    }
+    .Professional-designers-text-2,.Guaranteed-quality-text-2{
+        left: 10%;
+    }
+    .Free-delivery-text-2,.Free-installation-text-2{
+        left: 77%;
+    }
+    .why-to-choose-us-text{
+        top: 45%;
+    }
+}

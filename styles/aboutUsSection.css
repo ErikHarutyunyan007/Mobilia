@@ -1,0 +1,186 @@
+.about-us-section{
+    height: 568px;
+    width: 1440px;
+    top: 70px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.Rectangle-photo{
+    height: 568px;
+    width: 793px;
+    position: absolute;
+    right: 2.63%;
+    background-image:url(../wallpapers/Rectangle\ 4.svg);
+}
+.about-us-section-text{
+    height: 568px;
+    width: 583px;
+    position: absolute;
+    left: 2.22%;
+}
+.shopnow{
+    transition:transform 0.2s;
+    position: absolute;
+    height: 60px;
+    width: 326px;
+    border-radius: 5px;
+    top: 361px;
+    left: 8.26%;
+    font-size: 18px;
+    background-color: rgba(59, 82, 91, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.shopnow:hover{
+    transform: scale(1.1);
+    color:  rgba(234, 138, 127, 1);
+}
+.about-us-section-text-text1{
+    top: 146px;
+    left: 8.12%;
+    font-size: 34px;
+    width: 333px;
+    height: 82px;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about-us-section-text-text2{
+    top: 253px;
+    left: 8.12%;
+    font-size: 18px;
+    width: 362px;
+    height: 34px;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:1439px) {
+    .about-us-section, .shop-by-categories, .why-to-choose-us, .shop-by-style, .new-arrivals,  .customer-reviews, .sale, .our-contacts{
+        width: 100%;
+        margin: 0;
+    }
+    .about-us-section-text-text1,.about-us-section-text-text2,.shopnow{
+        left: 80px;
+    }
+}
+@media screen and (max-width:1300px){
+    .Rectangle-photo{
+        width: 700px;
+    }
+}
+@media screen and (max-width:1200px){
+    .about-us-section-text-text1,.about-us-section-text-text2{
+        left: 3%;
+    }
+    .shopnow{
+        left: 3%;
+    }
+}
+@media screen and (max-width:1164px) {
+    .Rectangle-photo{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:1133px) {
+    .Rectangle-photo{
+        width: 650px;
+        height: 520px;
+    }
+}
+@media screen and (max-width:1031px) {
+    .about-us-section{
+        top: 40px;
+        height: 410px;
+    }
+    .Rectangle-photo{
+        width: 100%;
+        height: 410px;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .about-us-section-text{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:30%;
+    width: 20%;
+    border-radius: 20px;
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+    left:78%;
+    top: 20%;
+    }
+    .about-us-section-text-text1{
+        font-size: 14px;
+        width: 80%;
+        top: 5%;
+        left: 10%;
+    }
+    .about-us-section-text-text2{
+        font-size: 10px;
+        top: 35%;
+        left: 10%;
+        width: 80%;
+    }
+    .shopnow{
+    transition:transform none;
+    z-index: 1;
+    top: 72%;
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    top: 80%;
+    border: none;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    margin: 0;
+    font-size: 12px;
+    }
+    .shopnow:hover{
+        transform:translate(-50%)
+    }
+}
+@media screen and (max-width:952px){
+    .about-us-section{
+        top: 33px;
+    }
+}
+@media screen and (max-width:881px) {
+    .Rectangle-photo, .about-us-section{
+        height: 340px;
+    }
+}
+@media screen and (max-width:748px) {
+  .about-us-section-text-text1{
+    font-size: 14px;
+  }   
+  .about-us-section-text-text2{
+    font-size: 10px;
+    top: 45%;
+  }
+
+}
+@media screen and (max-width:515px) {
+    .about-us-section-text-text1{
+        font-size: 10px;
+    }
+    .about-us-section-text-text2{
+        font-size: 8px;
+    }
+    .shopnow{
+        font-size: 8px;
+        height: 9px;
+        width: 70px;
+    }
+}
+@media screen and (max-width:415px) {
+    .shopnow{
+    width:60px;
+    }
+}

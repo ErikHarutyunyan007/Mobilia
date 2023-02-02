@@ -1,0 +1,285 @@
+.new-arrivals{
+    position: absolute;
+    top: 2936px;
+    height: 879px;
+    width: 1440px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.new-arrivals-text{
+    height: 44px;
+    width: 223px;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 36px;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.boat-chair, .relaxo-chair, .cocoa-table, .treelo-chair{
+    height: 455px;
+    width: 326px;
+    top: 204px;
+    position: absolute;
+}
+.boat-chair{
+    left: 1.8%;
+}
+.relaxo-chair{
+    left: 26.41%;
+}
+.cocoa-table{
+    left: 50.94%;
+}
+.treelo-chair{
+    left: 75.41%;
+}
+.boat-chair-img, .relaxo-chair-img, .cocoa-table-img, .treelo-chair-img{
+    height: 355px;
+    width: 100%;
+    position:absolute;
+}
+.boat-chair-img{
+    background-image: url(../wallpapers/boat-chair-wallpaper.svg);
+}
+.relaxo-chair-img{
+    background-image: url(../wallpapers/relaxo-chair-wallpaper.svg);
+}
+.cocoa-table-img{
+    background-image: url(../wallpapers/cocoa-table-wallpaper.svg);
+}
+.treelo-chair-img{
+    background-image: url(../wallpapers/treelo-chair-wallpaper.svg);
+}
+.boat-chair-price, .relaxo-chair-price, .cocoa-table-price, .treelo-chair-price{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(236, 238, 239, 1);
+    bottom: 0;
+}
+.boat-chair-text, .relaxo-chair-text, .cocoa-table-text, .treelo-chair-text{
+    height: 22px;
+    min-width: 94px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.boat-chair-price-text, .relaxo-chair-price-text, .cocoa-table-price-text, .treelo-chair-price-text{
+    left: 20px;
+    top: 58px;
+    height: 29px;
+    width: 104px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.See-more{
+    transition: 0.2s;
+    height: 60px;
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 739px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border: 2px solid rgba(234, 138, 127, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+}
+.See-more:hover{
+    background-color:  rgba(59, 82, 91, 1);
+    color:white;
+    transition: 0.2s;
+    font-size: 20px;
+}
+@media screen and (max-width:1439px) {
+    .new-arrivals{
+        width: 100%;
+        margin: 0;
+    }
+    .boat-chair, .relaxo-chair, .cocoa-table, .treelo-chair{
+        width: 312px;
+    }
+    .boat-chair,.paula-chair{
+        left: 0.8%;
+    }
+    .relaxo-chair, .Wooddy-table{
+        left: 25.41%;
+    }
+    .cocoa-table,.solido-chair{
+        left: 49.94%;
+    }
+    .treelo-chair,.circlus-table{
+        left: 74.41%;
+    }
+}
+@media screen and (max-width:1300px){
+    .boat-chair, .relaxo-chair, .cocoa-table, .treelo-chair{
+        height: 440px;
+        width: 300px;
+      
+    }
+}
+@media screen and (max-width:1164px) {
+    .new-arrivals{
+        top: 2750px;
+    }
+}
+@media screen and (max-width:958px) {
+    .new-arrivals{
+        top: 2450px;
+    }
+}
+@media screen and (max-width:1250px) {
+    .new-arrivals-text{
+        top: 30px;
+    }
+    .See-more{
+        top:790px;
+    }
+    .boat-chair,.relaxo-chair,.cocoa-table,.treelo-chair{
+        width: 40%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .boat-chair-price,.relaxo-chair-price,.cocoa-table-price,.treelo-chair-price{
+        height: 50px;
+    }
+    .boat-chair-img,.relaxo-chair-img,.cocoa-table-img,.treelo-chair-img{
+        height: 250px;
+    }
+    .boat-chair-text,.relaxo-chair-text,.cocoa-table-text,.treelo-chair-text{
+        height: 10px;
+        font-size: 20px;
+    }
+    .boat-chair-price-text,.relaxo-chair-price-text,.cocoa-table-price-text,.treelo-chair-price-text{
+        height: 15px;
+        font-size: 25px;
+        top: 30%;
+        left: 70%;
+    }
+    .boat-chair,.relaxo-chair{
+        left:6.66%;
+    }
+    .cocoa-table,.treelo-chair{
+        left: 53.32%;
+    }
+    .relaxo-chair,.treelo-chair{
+        top: 15.58%;
+    }
+    .cocoa-table,.boat-chair{
+        top: 50.29%;
+    }
+}
+@media screen and (max-width:1031px) {
+    .new-arrivals{
+        top: 1360px;
+        height: 400px;
+    }
+    .new-arrivals-text{
+        font-size: 18px;
+        text-align: center;
+        top: 0;
+    }
+    .relaxo-chair,.treelo-chair,.cocoa-table,.boat-chair{
+        top: 50px;
+        height: 300px;
+        width: 20%;
+    }
+    .boat-chair{
+        left: 4%;
+    }
+    .relaxo-chair{
+        left: 28%;
+    }
+    .cocoa-table{
+        left: 52%;
+    }
+    .treelo-chair{
+        left: 76%;
+    }
+    .boat-chair,.relaxo-chair,.cocoa-table,.treelo-chair{
+        height: 250px;
+    }
+    .boat-chair-img,.relaxo-chair-img,.cocoa-table-img,.treelo-chair-img{
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .boat-chair-price,.relaxo-chair-price,.cocoa-table-price,.treelo-chair-price{
+        height: 20%;
+        bottom: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    .boat-chair-price-text,.relaxo-chair-price-text,.cocoa-table-price-text,.treelo-chair-price-text{
+        font-size: 14px;
+        width: 60px;
+        left: 65%;
+        top: 32%;
+    }
+    .boat-chair-text,.relaxo-chair-text,.cocoa-table-text,.treelo-chair-text{
+        font-size: 16px;
+        top: 30%;
+        left: 2%;
+    }
+    .See-more{
+        position: absolute;
+        top: 90%;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    .See-more:hover{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:881px) {
+    .new-arrivals{
+        top: 1140px;
+        height: 280px;
+    }
+    .relaxo-chair,.treelo-chair,.cocoa-table,.boat-chair{
+        height: 150px;
+    }
+    .relaxo-chair-price-text,.boat-chair-price-text,.cocoa-table-price-text,.treelo-chair-price-text{
+        font-size: 10px;
+    }
+    .relaxo-chair-text,.boat-chair-text,.cocoa-table-text,.treelo-chair-text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:705px) {
+    .boat-chair-text,.cocoa-table-text,.relaxo-chair-text,.treelo-chair-text{
+        font-size: 10px;
+    }
+    .boat-chair-price-text,.cocoa-table-price-text,.relaxo-chair-price-text,.treelo-chair-price-text{
+        font-size: 6px;
+        left: 80%;
+        top: 40%;
+    }
+}
+@media screen and (max-width:555px) {
+    .boat-chair-price-text,.cocoa-table-price-text,.treelo-chair-price-text,.relaxo-chair-price-text{
+        left: 70%;
+    }
+}
+@media screen and (max-width:459px) {
+    .boat-chair-text,.relaxo-chair-text,.cocoa-table-text,.treelo-chair-text{
+        font-size: 6px;
+    }
+    .boat-chair-price-text,.relaxo-chair-price-text,.cocoa-table-price-text,.treelo-chair-price-text{
+        left: 60%;
+    }
+}

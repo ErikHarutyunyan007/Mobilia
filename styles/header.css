@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+}
+header{
+    height: 70px;
+    width: 100%;
+    margin: 0;    
+    position:absolute;
+}
+.hamburger{
+    display: none;
+}
+header > img{
+    height: 44px;
+    width: 134px;
+    left: 1.52%;
+    top: 14px;
+    position: absolute;
+}
+.nav-menu-list{
+    display: flex;
+    column-gap: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+}
+.nav-menu-list > ul > li{
+    list-style-type: none;
+}
+.nav-menu-list > ul > li > a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-menu-list > ul > li > a:hover{
+ color: rgba(234, 138, 127, 1);
+}
+
+.UserCircle, .ShoppingCart, .Vector, .MagnifyingGlass{
+    top: 17px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
+.UserCircle{
+    right: 2.01%;
+}
+.ShoppingCart{
+    right: 6.18%;
+}
+.Vector{
+    top: 23px;
+    right: 10.69%;
+}
+.MagnifyingGlass{
+    right: 15.20%;
+}
+@media screen and (max-width:1340px) {
+    header{
+        background-color: rgba(59, 82, 91, 1);
+    }
+}
+@media screen and (max-width:1031px) {
+    header{
+        height: 40px;
+    }
+    header > img{
+        top: 15%;
+        height: 25px;
+    }
+    .nav-menu-list{
+        font-size: 18px;
+    }
+    .MagnifyingGlass,.ShoppingCart,.UserCircle{
+        top: 10px;
+    }
+    .Vector{
+        top: 12px;
+    }
+    .MagnifyingGlass > img,.ShoppingCart > img,.UserCircle > img{
+        height: 25px;
+        width: 25px;
+    }
+    .Vector > img{
+        height: 22px;
+        width: 22px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .nav-menu-list{
+        left: 47%;
+    }
+}
+@media screen and (max-width:952px){
+    .nav-menu-list{
+        display: none;
+    }
+    .MagnifyingGlass,.ShoppingCart,.UserCircle{
+        top: 10px;
+    }
+    .Vector{
+        top: 12px;
+    }
+    .MagnifyingGlass > img,.ShoppingCart > img,.UserCircle > img{
+        height: 20px;
+        width: 20px;
+    }
+    .Vector > img{
+        height: 16px;
+        width: 22px;
+    }
+    .UserCircle{
+        right: 0
+    }
+    .ShoppingCart{
+        right: 3.5%;
+    }
+    .Vector{
+        right: 7%;
+    }
+    .MagnifyingGlass{
+        right: 10%;
+    }
+    header{
+        height: 33px;
+    }
+    header > img{
+        height: 15px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        left: 2%;
+        top: 27%;
+        position: absolute;
+    }
+    .hamburger > .line{
+        height: 2px;
+        width: 20px;
+        background-color: black;
+        margin: 3px 0;
+    }
+    .active{
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        background-color: rgba(59, 82, 91, 1);
+        display: block;
+        position: relative;
+        z-index: 1;
+        margin-top: 33px;
+        left: 0;
+        font-size:20px;
+        width: 50px;
+        height: 180px;
+        column-gap: 0px;
+    }
+    .active > ul{
+        flex-direction: column;
+        padding-left: 1px;
+    }
+    .active > ul > li{
+        list-style-type: none;
+        top: -17px;
+        padding: 2px;
+        position: relative;
+        padding-left: 0px;
+    }
+    .active > ul > li > a{
+        color:rgba(0, 0, 0, 1);
+        cursor: pointer;
+        font-size: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 6%;
+        text-decoration: none;
+    }
+    .active > ul > li > a:hover{
+     color: rgba(234, 138, 127, 1);
+    }
+
+}
+@media screen and (max-width:632px) {
+    .UserCircle{
+        right: 2%;
+        height: 10px;
+        width: 10px;
+    }
+    .ShoppingCart{
+        right: 6%;
+        height: 10px;
+        width: 10px;
+    }
+    .Vector{
+        right: 10%;
+        height: 10px;
+        width: 10px;
+    }
+    .MagnifyingGlass{
+        right: 14%;
+        height: 10px;
+        width: 10px;
+    }
+}
+@media screen and (max-width:615px) {
+    .UserCircle{
+        right: 3%;
+        height: 8px;
+        width: 8px;
+    }
+    .ShoppingCart{
+        right: 7%;
+        height: 8px;
+        width: 8px;
+    }
+    .Vector{
+        right: 11%;
+        height: 8px;
+        width: 8px;
+    }
+    .MagnifyingGlass{
+        right: 15%;
+        height: 8px;
+        width: 8px;
+    }
+}
+@media screen and (max-width:500px) {
+    .UserCircle{
+        right: 4.5%;
+        height: 7px;
+        width: 7px;
+    }
+    .ShoppingCart{
+        right: 9.5%;
+        height: 7px;
+        width: 7px;
+    }
+    .Vector{
+        right: 14.5%;
+        height: 7px;
+        width: 7px;
+    }
+    .MagnifyingGlass{
+        right: 18.5%;
+        height: 7px;
+        width: 7px;
+    }
+}
+@media screen and (max-width:423px) {
+    .UserCircle{
+        right: 4.5%;
+        height: 5px;
+        width: 5px;
+    }
+    .ShoppingCart{
+        right: 11.5%;
+        height: 5px;
+        width: 5px;
+    }
+    .Vector{
+        right: 18.5%;
+        height: 5px;
+        width: 5px;
+    }
+    .MagnifyingGlass{
+        right: 24.5%;
+        height: 5px;
+        width: 5px;
+    }
+}

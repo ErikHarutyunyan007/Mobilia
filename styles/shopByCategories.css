@@ -1,0 +1,182 @@
+.shop-by-categories{
+    width: 1440px;
+    height: 1118px;
+    top: 712px;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.shop-by-categories-text{
+    height: 44px;
+    width: 349px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    top:60px;
+    font-size:36px;
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.diningroom{
+    height: 342px;
+    width: 559px;
+    left: 10.34%;
+    top: 212px;
+    position: absolute;
+    background-image: url(../wallpapers/diningroom-wallpaper.svg);
+}
+.livingroom{
+    height: 458px;
+    width: 559px;
+    top: 212px;
+    right: 10.34%;
+    position: absolute;
+    background-image: url(../wallpapers/livingroom-wallpaper.svg);
+}
+.kitchen{
+    height: 458px;
+    width: 559px;
+    left: 10.34%;
+    top: 578px;
+    position: absolute;
+    background-image: url(../wallpapers/kitchen-wallpaper.svg);
+}
+.bedroom{
+    height: 342px;
+    width: 559px;
+    top: 694px;
+    right: 10.34%;
+    position: absolute;
+    background-image: url(../wallpapers/bedroom-wallpaper.svg);
+}
+.diningroom-text, .livingroom-text, .kitchen-text, .bedroom-text{
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    font-size: 34px;
+    bottom: 0;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.9s;
+    color: black;
+    cursor: pointer;
+}
+.diningroom-text:hover, .livingroom-text:hover, .kitchen-text:hover, .bedroom-text:hover{
+    height: 100%;
+    transition: 0.9s;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+@media screen and (max-width:1439px) {
+    .shop-by-categories{
+        width: 100%;
+        margin: 0;
+    }
+    .diningroom,.kitchen{
+        left: 6.5%;
+    }
+    .livingroom,.bedroom{
+        right: 6.5%;
+    }
+}
+@media screen and (max-width:1300px){
+    .diningroom,.bedroom{
+        height: 300px;
+        width: 500px;
+    }
+    .livingroom,.kitchen{
+        height: 416px;
+        width: 500px;
+    }
+    .diningroom, .livingroom{
+        top: 222px;
+    }
+    .kitchen{
+        top: 568px;
+    }
+    .bedroom{
+        top: 684px;
+    }
+}
+@media screen and (max-width:1171px) {
+    .livingroom, .kitchen,.bedroom,.diningroom{
+        height: 300px;
+    }
+    .kitchen,.bedroom{
+        top: 590px;
+    }
+    .diningroom,.kitchen{
+        left: 2%;
+    }
+    .livingroom,.bedroom{
+        right: 2%;
+    }
+}
+@media screen and (max-width:1164px) {
+    .shop-by-categories{
+        top:635px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width:1060px) {
+    .diningroom,.livingroom,.kitchen,.bedroom{
+        width: 450px;
+    }
+}
+@media screen and (max-width:1031px) {
+    .shop-by-categories{
+        top: 450px;
+        height: 300px;
+    }
+    .shop-by-categories-text{
+        font-size: 18px;
+        top: 30px;
+    }
+    .diningroom,.livingroom{
+        top: 80px;
+        height: 200px;
+        width: 20%;
+    }
+    .kitchen,.bedroom{
+        width: 20%;
+        height: 200px;
+        top:80px;
+    }
+    .diningroom{
+        left: 4%;
+    }
+    .livingroom{
+        left: 28%;
+    }
+    .kitchen{
+        left: 52%;
+    }
+    .bedroom{
+        left: 76%;
+    }
+    .livingroom-text,.diningroom-text,.kitchen-text,.bedroom-text{
+        font-size: 16px;
+        height: 30px;
+    }
+    .diningroom-text:hover,.livingroom-text:hover,.bedroom-text:hover,.kitchen-text:hover{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:881px) {
+  .shop-by-categories{
+    top: 380px;
+    height: 280px;
+  }
+.diningroom,.livingroom,.kitchen,.bedroom{
+    height: 150px;
+}
+}

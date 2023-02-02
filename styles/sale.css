@@ -1,0 +1,339 @@
+.sale{
+    height: 866px;
+    width: 1440px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 4405px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.sale-text{
+    height: 44px;
+    width: 76px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 80px;
+    position: absolute;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.paula-chair, .Wooddy-table, .solido-chair, .circlus-table{
+    height: 455px;
+    width: 326px;
+    top: 204px;
+    position: absolute;
+}
+.paula-chair{
+    left: 1.8%;
+}
+.Wooddy-table{
+    left: 26.41%;
+}
+.solido-chair{
+    left: 50.94%;
+}
+.circlus-table{
+    left: 75.41%;
+}
+.paula-chair-img, .Wooddy-table-img, .solido-chair-img, .circlus-table-img{
+    height: 355px;
+    width: 100%;
+    position:absolute;
+}
+.paula-chair-img{
+    background-image: url(../wallpapers/paula-chair-wallpaper.svg);
+}
+.Wooddy-table-img{
+    background-image: url(../wallpapers/Wooddy-table-wallpaper.svg);
+}
+.solido-chair-img{
+    background-image: url(../wallpapers/solido-chair-wallpaper.svg);
+}
+.circlus-table-img{
+    background-image: url(../wallpapers/circlus-table-wallpaper.svg);
+}
+.paula-chair-price, .Wooddy-table-price, .solido-chair-price, .circlus-table-price{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(236, 238, 239, 1);
+    bottom: 0;
+}
+.paula-chair-text, .Wooddy-table-text, .solido-chair-text, .circlus-table-text{
+    height: 22px;
+    min-width: 94px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.paula-chair-price-text,.Wooddy-table-price-text, .solido-chair-price-text, .circlus-table-price-text{
+    left: 20px;
+    top: 58px;
+    height: 29px;
+    width: 104px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.paula-chair-price-text, .Wooddy-table-price-text, .solido-chair, .circlus-table{
+    color: rgba(0, 0, 0, 0.5);
+}
+.new-price-text{
+    height: 29px;
+    width: 105px;
+    top: 58px;
+    left: 201px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(234, 138, 127, 1);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.percent-icon{
+    background-image: url(../icons/percent.svg);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 2%;
+    left: 81.59%;
+}
+/* .See-more{
+    transition: 0.2s;
+    height: 60px;
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 739px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border: 2px solid rgba(234, 138, 127, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+} */
+/* .See-more:hover{
+    background-color:  rgba(59, 82, 91, 1);
+    color:white;
+    transition: 0.2s;
+    font-size: 20px;
+} */
+@media screen and (max-width:1439px){
+    .sale{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1300px){
+   .paula-chair, .Wooddy-table, .solido-chair, .circlus-table{
+        height: 440px;
+        width: 300px;
+      
+    }
+}
+@media screen and (max-width:1250px) {
+    .sale-text{
+        top: 30px;
+    }
+    .percent-icon{
+        height: 30px;
+        width: 30px;
+        background-size: cover;
+        left: 90%;
+    }
+    .paula-chair, .Wooddy-table, .solido-chair, .circlus-table{
+        width: 40%;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .paula-chair-price,.Wooddy-table-price,.solido-chair-price,.circlus-table-price{
+        height: 50px;
+    }
+    .paula-chair-img,.Wooddy-table-img,.solido-chair-img,.circlus-table-img{
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .paula-chair-text,.Wooddy-table-text,.solido-chair-text,.circlus-table-text{
+        height: 10px;
+        font-size: 20px;
+    }
+    .paula-chair-price-text,.Wooddy-table-price-text,.solido-chair-price-text,.circlus-table-price-text{
+        height: 20px;
+        text-align: center;
+        font-size: 18px;
+        top: 30%;
+        left: 55%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 90px;
+    }
+    .new-price-text{
+        position: absolute;
+        left: 77%;
+        top: 30%;
+    }
+    .paula-chair,.Wooddy-table{
+        left:6.66%;
+    }
+    .solido-chair,.circlus-table{
+        left: 53.32%;
+    }
+    .Wooddy-table,.circlus-table{
+        top: 15.58%;
+    }
+    .solido-chair,.paula-chair{
+        top: 50.29%;
+    }
+}
+@media screen and (max-width:1164px) {
+    .sale{
+        top: 4220px;
+    }
+}
+@media screen and (max-width:1031px) {
+    .sale{
+        top: 2060px;
+        height: 400px;
+    }
+    .percent-icon{
+        height: 15px;
+        width: 15px;
+    }
+    .sale-text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .Wooddy-table,.circlus-table,.paula-chair,.solido-chair{
+        top: 70px;
+        height: 300px;
+        width: 20%;
+    }
+    .Wooddy-table{
+        left: 4%;
+    }
+    .circlus-table{
+        left: 28%;
+    }
+    .paula-chair{
+        left: 52%;
+    }
+    .solido-chair{
+        left: 76%;
+    }
+    .Wooddy-table,.circlus-table,.paula-chair,.solido-chair{
+        height: 250px;
+    }
+    .Wooddy-table-img,.circlus-table-img,.paula-chair-img,.solido-chair-img{
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Wooddy-table-price,.circlus-table-price,.paula-chair-price,.solido-chair-price{
+        height: 20%;
+        bottom: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    .Wooddy-table-price-text,.circlus-table-price-text,.paula-chair-price-text,.solido-chair-price-text{
+        font-size: 14px;
+        background-size: cover;
+        width: 60px;
+        left: 65%;
+        top: 3%;
+    }
+    .Wooddy-table-text,.circlus-table-text,.paula-chair-text,.solido-chair-text{
+        font-size: 16px;
+        top: 30%;
+        left: 2%;
+    }
+    .new-price-text{
+        font-size: 16px;
+        left: 63%;
+        top: 50%;
+    }
+    .See-more{
+        position: absolute;
+        top: 90%;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    .See-more:hover{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:881px) {
+    .sale{
+        top: 1735px;
+        height: 300px;
+    }
+    .circlus-table,.paula-chair,.Wooddy-table,.solido-chair{
+        height: 150px;
+    }
+    .new-price-text{
+        font-size: 10px;
+        top: 37%;
+        left: 70%;
+    }
+    .circlus-table-text,.Wooddy-table-text,.solido-chair-text,.paula-chair-text{
+        font-size: 12px;
+    }
+    .circlus-table-price-text,.Wooddy-table-price-text,.paula-chair-price-text,.solido-chair-price-text{
+        font-size: 8px;
+        background-size:cover;
+        height: 10px;
+        width: 35px;
+        left: 75%;
+    }
+    .percent-icon{
+        left: 70%;
+    }
+}
+@media screen and (max-width:705px){
+    .circlus-table-text,.paula-chair-text,.solido-chair-text,.Wooddy-table-text{
+        font-size: 10px;
+    }
+    .new-price-text{
+        font-size: 6px;
+        left: 72%;
+        top: 40%;
+    }
+    .circlus-table-price-text,.Wooddy-table-price-text,.solido-chair-price-text,.paula-chair-price-text{
+        font-size: 6px;
+        height: 8px;
+        top: 20%;
+        left: 70%;
+    }
+}
+@media screen and (max-width:579px) {
+    .circlus-table-price-text,.paula-chair-price-text,.solido-chair-price-text,.Wooddy-table-price-text{
+        left: 60%;
+    }
+    .new-price-text{
+        left: 65%;
+    }
+}
+@media screen and (max-width:447px) {
+    .circlus-table-text,.paula-chair-text,.Wooddy-table-text,.solido-chair-text{
+        font-size: 6px;
+    }   
+    .new-price-text{
+        font-size: 6px;
+        left: 60%;
+    }
+    .circlus-table-price-text,.paula-chair-price-text,.solido-chair-price-text,.Wooddy-table-price-text{
+        font-size: 6px;
+        width: 20px;
+        height: 7px;
+        left: 60%;
+    }
+}

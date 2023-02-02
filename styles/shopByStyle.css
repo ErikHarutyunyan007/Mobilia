@@ -1,0 +1,143 @@
+.shop-by-style{
+    height: 598px;
+    width: 1440px;
+    position: absolute;
+    top: 2338px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.shop-by-style-text{
+    width: 243px;
+    height: 43.56px;
+    top: 79.21px;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    position: absolute;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.modern{
+    height: 394px;
+    width: 560px;
+    position: absolute;
+    left: 7.36%;
+    top: 204px;
+    background-image: url(../wallpapers/modern-wallpaper.svg);
+}
+.rustic{
+    height: 394px;
+    width: 560px;
+    position: absolute;
+    right: 7.36%;
+    top: 204px;
+    background-image: url(../wallpapers/rustic-wallpaper.svg);
+}
+.modern-text, .rustic-text{
+    height: 58px;
+    width: 100%;
+    position: absolute;
+    font-size: 34px;
+    bottom: 0;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.9s;
+    color: black;
+    cursor: pointer;
+}
+.modern-text:hover, .rustic-text:hover{
+    height: 100%;
+    transition: 0.9s;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 50px;
+}
+@media screen and (max-width:1439px){
+    .shop-by-style{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1439px) {
+    .modern{
+        left: 6.5%;
+    }
+    .rustic{
+        right: 6.5%;
+    }
+}
+@media screen and (max-width:1300px){
+    .modern{
+        left: 3%;
+    }
+    .rustic{
+        right: 3%;
+    }
+}
+@media screen and (max-width:1164px) {
+    .shop-by-style{
+        top: 2145px;
+    }
+}
+@media screen and (max-width:1211px) {
+    .modern,.rustic{
+     width: 500px;
+    }
+}
+@media screen and (max-width:1087px) {
+    .shop-by-style-text{
+        top: 3%;
+    }
+    .modern{
+     top:150px ;
+     width: 45%;
+     left:3.33%;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    .rustic{
+    top:150px ;
+    width: 45%;
+    left: 51.66%;
+    background-repeat: no-repeat;
+    background-size: cover;
+       }
+}
+@media screen and (max-width:1031px){
+    .shop-by-style{
+        top: 1050px;
+        height: 310px;
+    }
+    .shop-by-style-text{
+        top: 30px;
+        font-size: 18px;
+        left: 50%;
+        text-align: center;
+    }
+    .modern,.rustic{
+        top: 80px;
+        height: 200px;
+    }
+    .modern-text,.rustic-text{
+        height: 30px;
+        font-size: 16px;
+    }
+    .modern-text:hover,.rustic-text:hover{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:881px) {
+    .shop-by-style{
+        top: 860px;
+        height: 280px;
+    }
+    .modern,.rustic{
+        height: 150px;
+    }
+}

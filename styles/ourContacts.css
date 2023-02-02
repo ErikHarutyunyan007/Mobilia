@@ -1,0 +1,282 @@
+.our-contacts{
+    height: 400px;
+    width: 1440px;
+    position: absolute;
+    left: 50%;
+    top: 5271px;
+    transform: translate(-50%);
+    background-color: rgba(59, 82, 91, 1);
+}
+.instagram-icon, .facebook-icon, .telegram-icon{
+    position: absolute;
+    left: 326px;
+    height: 30px;
+    width: 30px;
+}
+.instagram-icon{
+    top: 114px;
+}
+.facebook-icon{
+    top: 164px;
+}
+.telegram-icon{
+    top: 214px;
+}
+.amex-icon{
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 498px;
+    top: 104px;
+}
+.master-card-icon{
+    height:48.43px;
+    width: 48.43px;
+    position: absolute;
+    left: 498px;
+    top: 153px;
+}
+.visa-icon{
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 499px;
+    top:206px;
+}
+.payment-methods-text{
+    height: 21.6px;
+    width: 152.23px;
+    position: absolute;
+    top: 79px;
+    left: 497px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.find-us-on-text{
+    height: 17px;
+    width: 93px;
+    position: absolute;
+    top: 79px;
+    left: 321px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.copy-right{
+    height: 19px;
+    width: 241px;
+    position: absolute;
+    top: 352px;
+    left: 81.45%;
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.subscribe{
+    height: 50px;
+    width: 326px;
+    position: absolute;
+    top: 227px;
+    left: 67.01%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(234, 138, 127, 1);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.email-address{
+    height: 50px;
+    width: 326px;
+    position: absolute;
+    top: 167px;
+    left: 67.01%;
+    background-color: rgba(59, 82, 91, 1);
+    border-radius: 5px;
+    border: 1px solid #ECEEEF;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    padding-left: 17px;
+}
+.NEWSLETTER{
+    height: 75px;
+    width: 280px;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 79px;
+    left: 67.15%;
+}
+.NEWSLETTER > p{
+    font-size: 16px;    
+    line-height: 24px;
+}
+.aboutus-contacts-etc{
+    height: 167px;
+    width: 92px;
+    position: absolute;
+    top: 79px;
+    left: 149px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:1439px){
+    .our-contacts{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1300px){
+    .copy-right{
+        left: 75%;
+    }
+}
+@media screen and (max-width:1164px) {
+    .our-contacts{
+        top: 5090px;
+    }
+}
+@media screen and (max-width:1031px) {
+    .our-contacts{
+        top: 2460px;
+        height: 300px;
+    }
+    .aboutus-contacts-etc{
+        font-size: 14px;
+        left: 5%;
+    }
+    .find-us-on-text{
+        font-size: 14px;
+        left: 20%;
+    }
+    .instagram-icon,.facebook-icon,.telegram-icon{
+        left: 20%;
+        height: 20px;
+        width: 20px;
+    }
+    .payment-methods-text{
+        font-size: 14px;
+        left: 35%;
+    }
+    .amex-icon,.visa-icon,.master-card-icon{
+        height: 30px;
+        width: 30px;
+        left: 35%;
+    }
+    .NEWSLETTER{
+        left: 80%;
+        font-size: 14px;
+    }
+    .NEWSLETTER > p{
+        font-size: 10px;
+        width: 100px;
+        line-height: 15px;
+    }
+    .email-address,.subscribe{
+        left: 80%;
+        height: 30px;
+        width: 150px;
+    }
+    .email-address{
+        top: 60%;
+    }
+    .subscribe{
+        top: 72%;
+    }
+    .copy-right{
+        top: 90%;
+    }
+}
+@media screen and (max-width:949px) {
+    .copy-right{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:881px) {
+    .our-contacts{
+        top: 2050px;
+    }
+}
+@media screen and (max-width:767px) {
+    .copy-right{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:764px) {
+    .subscribe{
+        left: 70%;
+    }
+    .NEWSLETTER{
+        left: 70%;
+    }
+    .copy-right{
+        left: 70%;
+    }
+    .email-address{
+        left: 70%;
+    }
+}
+@media screen and (max-width:692px) {
+    .NEWSLETTER{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:545px) {
+    .copy-right{
+        font-size: 8px;
+        top: 85%;
+    }
+}   
+@media screen and (max-width:527px) {
+    .email-address,.subscribe,.NEWSLETTER{
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .aboutus-contacts-etc,.find-us-on-text,.payment-methods-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:431px) {
+    .copy-right{
+    left: 65%;
+       
+    }
+}
+@media screen and (max-width:371px) {
+    .payment-methods-text,.amex-icon,.visa-icon,.master-card-icon{
+        left: 40%;
+    }
+    .find-us-on-text,.facebook-icon,.instagram-icon,.telegram-icon{
+        left: 25%;
+    }
+}
+@media screen and (max-width:367px) {
+    .copy-right{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:362px) {
+    .find-us-on-text,.aboutus-contacts-etc{
+        font-size: 8px;
+    }
+    .aboutus-contacts-etc{
+        width: 40px;
+    }
+}
+@media screen and (max-width:343px) {
+    .subscribe,.email-address{
+        width: 70px;
+    }
+}
+@media screen and (max-width:325px) {
+    .copy-right{
+        left: 50%;
+    }
+}
